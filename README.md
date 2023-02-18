@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Horizon - The Technical Fest of IIIT Vadodara ICD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's an annual Technical fest of IIIT Vadodara ICD institute, this github repo includes the code of the same. The website includes Home Page, Events Page, About Page, Tribute Page, etc. Home Page includes brief introduction of the fest, events and sponsors listing. Events Pages includes all the events which were being orgainized by us. About page includes sponsors of the fest and some FAQ's. It was a group project made by me and my colleagues. My main role was of frontend of the website. Website link - (https://horizon-iiitvicd.in/)
 
-## Available Scripts
+## Functionalities
 
-In the project directory, you can run:
+User has to first do SignUp and then Login to register to the events listed on the website. Credentials are verified using MongoDb. After Login user can go to events page and register to the events listed. On events page only a brief introduction to the event are shown in grid layout. User can know more and register to events by clicking on view, which show all details like prize pool, team size, rules, etc. After registering to the event user can view all the events registered in the profile section, user can change it's avatar from the list of avatars provided. A timeline page is been created which user can sync to google calendar. All the events are been updated dynamically. Teams page shows all the contribution of the my colleagues to make this event a huge success.
 
-### `yarn start`
+## Technology Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Frontend - Html, CSS, Javascript, React.js, libraries like reack-slick, material-icons, ckakra-ui, etc
+* Backend - Node.js, Express.js
+* Database - MongoDB
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Website Screenshots
+Following drive link includes all the screenshot of the website.<br>
+Drive Link - (https://drive.google.com/file/d/1dnbCXnRitRRjrYSvW74SMdi9dV2hGA1W/view?usp=share_link)
